@@ -5,7 +5,6 @@ public class int32toipv4 {
 		long n = ip;
 		for (int i = 0; i < 32; i++) {
 			arr[i] = (int)(n%2);
-			System.out.println(arr[i]);
 			n = n/2;
 		}
 		int[] pos = new int[4];
@@ -14,7 +13,6 @@ public class int32toipv4 {
 			int k = 0;
 			for(int j = i*8; j < 8*(i+1); j++) {
 				sum = sum + (int)(Math.pow(2, k))*arr[j];
-	
 				k++;
 			}
 			pos[i] = sum;

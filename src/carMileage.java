@@ -3,10 +3,7 @@ public class carMileage {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(isInteresting(98, new int[]{1337, 256}));
-
 	}
-	
-
 	  public static int isInteresting(int number, int[] awesomePhrases) {
 		    //Go to town
 		    for(int i = 0; i < awesomePhrases.length; i++){
